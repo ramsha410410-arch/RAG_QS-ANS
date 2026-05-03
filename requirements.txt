@@ -1,0 +1,26 @@
+# RAG Pipeline Dependencies — FREE stack (Groq + HuggingFace)
+# Install with: pip install -r requirements.txt
+
+# Core framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# LangChain ecosystem
+langchain==0.3.7
+langchain-community==0.3.7
+langchain-groq==0.2.1
+
+# Vector store
+faiss-cpu==1.9.0
+
+# FREE local embeddings (downloads ~90MB model on first run)
+sentence-transformers==3.3.1
+
+# Document loaders
+pypdf==4.3.1
+docx2txt==0.8
+unstructured==0.15.13
+
+# Utilities
+python-multipart==0.0.12
+pydantic==2.9.2
